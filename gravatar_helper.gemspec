@@ -32,7 +32,9 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_runtime_dependency 'rails', '>= 5.0'
+  spec.add_dependency "activesupport", "~> 7.0.5.1"
 end
